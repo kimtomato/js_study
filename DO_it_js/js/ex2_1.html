@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>변수에 저장 가능한 자료형</title>
+        <!--
+            문자형 : var a = "은지"
+            숫자형 : var s = 1; var t = Number("200"); Number() 이용 시 문자형 데이터를 숫자형 데이터로 변환 가능  
+            논리형 : var s = true or false; var s = Boolean(데이터); Boolean()메서드 내부에 데이터 입력 시 논리형 데이터로 반환
+            0, null, undefined, 빈문자 ("") 는 false  
+            undefined: 변수에 값이 등록되기 전 
+        -->
+        <script>
+           var a = true;
+           var b = false;
+           var c= 10>5; 
+           var d = Boolean(null);
+           var num = 100;
+           //typeof 변수에 저장된 자료형을 알고 싶을 때 사용
+           document.write(typeof num,"<br>")
+           document.write(a,"<br>")
+           document.write(b,"<br>")
+           document.write(c,"<br>")
+           document.write(d, "<br>")
+        </script>
+    </head>
+    
+    <body></body>
+
+</html>
